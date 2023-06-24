@@ -1,0 +1,51 @@
+footer {
+  background-color: #111111;
+  padding: 100px 0;
+  color: #fff;
+}
+footer h1 {
+  margin-bottom: 30px;
+  color: #adff00;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+}
+footer .img {
+  background-color: #333333;
+
+  padding: 15px 20px;
+}
+footer .img i {
+  font-size: 20px;
+  margin: 5px;
+}
+footer .img span {
+  margin-top: 5px;
+}
+footer p {
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+footer h2 {
+  margin-bottom: 20px;
+}
+footer li {
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+
+footer p,
+footer h2,
+footer li {
+  opacity: 0.5; /* Set initial opacity to 0.5 */
+  transition: opacity 0.3s ease; /* Add a transition effect for smooth opacity change */
+}
+
+footer p:hover,
+footer h2:hover,
+footer li:hover {
+  opacity: 1; /* Change the opacity to 1 on hover */
+  color: #ffffff; /* Change the text color to white on hover */
+}
